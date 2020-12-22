@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Sample Rate -->
+    <string name="samplerate">Sample Rate</string>
+    <string name="sampleratekey">sampleratekey</string>
+    <bool name="my_bool_setting_default">false</bool>
+</resources>

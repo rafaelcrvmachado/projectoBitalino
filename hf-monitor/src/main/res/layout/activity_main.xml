@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="Name:"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/device_name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="name"
+            android:textColor="@color/material_grey_600"
+            android:textSize="16dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:paddingLeft="10dp"-->
+<!--            android:text="MAC address:"-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:textSize="16dp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/mac_address_text_view"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:paddingLeft="10dp"-->
+<!--            android:text="00:00:00:00:00:00"-->
+<!--            android:textColor="@color/material_grey_600"-->
+<!--            android:textSize="16dp"-->
+<!--            android:textStyle="italic" />-->
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView6"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:paddingLeft="10dp"-->
+<!--            android:text="Elapsed time:"-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:textSize="16dp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/elapsed_time_Text_view"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:paddingLeft="10dp"-->
+<!--            android:text="00:00:00"-->
+<!--            android:textColor="@color/material_grey_600"-->
+<!--            android:textSize="16dp"-->
+<!--            android:textStyle="italic" />-->
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="State:"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/state_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="state"
+            android:textColor="@color/material_grey_600"
+            android:textSize="16dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextSbpX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="SBP BIAS"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/editTextSbpM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="SBP SLOPE"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/connect_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Connect" />
+
+            <Button
+                android:id="@+id/disconnect_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Disconnect" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/start_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Start" />
+
+            <Button
+                android:id="@+id/stop_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Stop" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bitalino_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+                <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Settings"
+                        android:id="@+id/settings_button"/>
+<!--                <LinearLayout-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content">-->
+<!--                    <RadioButton-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="1"-->
+<!--                            android:id="@+id/digital_1_radio_button" android:textColor="@color/material_grey_600" android:textSize="20dp"-->
+<!--                            android:textStyle="bold" android:layout_weight="1" android:gravity="center"-->
+<!--                            android:layout_margin="2dp" android:background="@drawable/radio_button_background"-->
+<!--                    />-->
+<!--                    <RadioButton android:layout_width="match_parent" android:layout_height="wrap_content" android:text="2"-->
+<!--                                 android:id="@+id/digital_2_radio_button" android:textColor="@color/material_grey_600"-->
+<!--                                 android:textSize="20dp" android:textStyle="bold" android:layout_weight="1"-->
+<!--                                 android:gravity="center" android:layout_margin="2dp"-->
+<!--                                 android:background="@drawable/radio_button_background"/>-->
+<!--                    <RadioButton android:layout_width="match_parent" android:layout_height="wrap_content" android:text="3"-->
+<!--                                 android:id="@+id/digital_3_radio_button" android:textColor="@color/material_grey_600"-->
+<!--                                 android:textSize="20dp" android:textStyle="bold" android:layout_weight="1"-->
+<!--                                 android:gravity="center" android:layout_margin="2dp"-->
+<!--                                 android:background="@drawable/radio_button_background" android:visibility="gone"/>-->
+<!--                    <RadioButton android:layout_width="match_parent" android:layout_height="wrap_content" android:text="4"-->
+<!--                                 android:id="@+id/digital_4_radio_button" android:textColor="@color/material_grey_600"-->
+<!--                                 android:textSize="20dp" android:textStyle="bold" android:layout_weight="1"-->
+<!--                                 android:gravity="center" android:layout_margin="2dp"-->
+<!--                                 android:background="@drawable/radio_button_background" android:visibility="gone"/>-->
+<!--                </LinearLayout>-->
+<!--                <Button-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Trigger"-->
+<!--                        android:id="@+id/trigger_button"/>-->
+<!--                <LinearLayout-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent">-->
+<!--                    <SeekBar-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:id="@+id/battery_threshold_seek_bar" android:layout_weight="1" android:layout_marginLeft="5dp"-->
+<!--                            android:layout_marginRight="5dp" android:layout_gravity="center" android:max="62"-->
+<!--                            android:progress="20"/>-->
+<!--                    <Button-->
+<!--                            android:layout_width="110dp"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="Battery Threshold"-->
+<!--                            android:id="@+id/battery_threshold_button"/>-->
+<!--                </LinearLayout>-->
+<!--                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"-->
+<!--                              android:layout_height="match_parent">-->
+<!--                    <SeekBar android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/pwm_seek_bar"-->
+<!--                             android:layout_weight="1" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"-->
+<!--                             android:layout_gravity="center" android:progress="100" android:max="254"/>-->
+<!--                    <Button android:layout_width="110dp" android:layout_height="wrap_content" android:text="PWM"-->
+<!--                            android:id="@+id/pwm_button"/>-->
+<!--                </LinearLayout>-->
+<!--                <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:text="Results:"-->
+<!--                          android:layout_weight="1" android:textSize="16dp"-->
+<!--                          android:gravity="center_vertical" android:paddingLeft="10dp" android:textColor="@android:color/black"-->
+<!--                          android:textStyle="bold"/>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bptextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="BP:"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bpTv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="NA"
+                android:textColor="@color/material_grey_600"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Heart Rate:"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hrTv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="NA"
+                android:textColor="@color/material_grey_600"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pulserateTv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Pulse Rate:"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/prTv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="NA"
+                android:textColor="@color/material_grey_600"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pttTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="PTT:"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rrTv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="NA"
+                android:textColor="@color/material_grey_600"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/results_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="..."
+            android:textColor="@color/material_grey_600"
+            android:textSize="16dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/ecggraph"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/ppggraph"
+        android:layout_width="match_parent"
+        android:layout_height="100dip" />
+
+</LinearLayout>

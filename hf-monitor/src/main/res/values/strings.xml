@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">HF Monitor</string>
+
+    <!-- permission check dialog -->
+    <string name="permission_check_dialog_title">This app needs location access</string>
+    <string name="permission_check_dialog_message">Please grant location access so this app can detect PLUX\'s Bluetooth devices</string>
+    <string name="permission_check_dialog_positive_button">OK</string>
+
+    <!-- permission denied dialog -->
+    <string name="permission_denied_dialog_title">Functionality limited</string>
+    <string name="permission_denied_dialog_message">Since location access has no been granted, this app will not be able to discover bluetooth devices.</string>
+    <string name="permission_denied_dialog_positive_button">OK</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

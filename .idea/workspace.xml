@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c689aacf-0e66-4046-8449-b1750e436066" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/api/revolution-android-api.api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/sample-app/revolution-android-api.hf-monitor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/revolution-android-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hf-monitor/src/main/java/info/plux/pluxapi/sampleapp/DeviceActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hf-monitor/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hf-monitor/src/main/res/layout/settings_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hf-monitor/src/main/res/values/arrays.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hf-monitor/src/main/res/values/settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hf-monitor/src/main/res/xml/root_preferences.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/hf-monitor/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hf-monitor/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/hf-monitor/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/src/androidTest/java/info/plux/pluxapi/sampleapp/ApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hf-monitor/src/androidTest/java/info/plux/pluxapi/sampleapp/ApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hf-monitor/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/src/main/java/info/plux/pluxapi/sampleapp/DeviceActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/src/main/java/info/plux/pluxapi/sampleapp/ScanActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/hf-monitor/src/main/java/info/plux/pluxapi/sampleapp/ScanActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/src/main/res/drawable/radio_button_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hf-monitor/src/main/res/drawable/radio_button_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/src/main/res/layout/actionbar_indeterminate_progress.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hf-monitor/src/main/res/layout/actionbar_indeterminate_progress.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/src/main/res/layout/listitem_device.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hf-monitor/src/main/res/layout/listitem_device.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/src/main/res/menu/main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hf-monitor/src/main/res/menu/main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/hf-monitor/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/hf-monitor/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/hf-monitor/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/hf-monitor/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/hf-monitor/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/src/main/res/values-w820dp/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hf-monitor/src/main/res/values-w820dp/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hf-monitor/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hf-monitor/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hf-monitor/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hf-monitor/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-app/src/test/java/info/plux/pluxapi/sampleapp/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hf-monitor/src/test/java/info/plux/pluxapi/sampleapp/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jKbohT7Qzaeq43w0ByB7Y8XE5t" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-2035307394">
+      <recent name="info.plux.pluxapi.sampleapp" />
+    </key>
+    <key name="android.template.1675794204">
+      <recent name="info.plux.pluxapi.sampleapp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sample-app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="revolution-android-api.hf-monitor" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c689aacf-0e66-4046-8449-b1750e436066" name="Default Changelist" comment="" />
+      <created>1603555907551</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603555907551</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="227" width="524" height="510" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608522704112">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="533" y="193" width="524" height="510" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1600.873@0.27.1600.873" timestamp="1604839809327" />
+    <state x="640" y="227" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053/1920.410.1600.900@0.27.1920.1053" timestamp="1608522704112" />
+    <state x="625" y="134" width="660" height="809" key="#sample-app" timestamp="1608522304155">
+      <screen x="0" y="27" width="3520" height="1283" />
+    </state>
+    <state x="625" y="134" width="660" height="809" key="#sample-app/0.27.3520.1283@0.27.3520.1283" timestamp="1608522304155" />
+    <state x="383" y="203" width="824" height="491" key="AndroidCreateResourceDirectoryDialog" timestamp="1604839746274">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="383" y="203" width="824" height="491" key="AndroidCreateResourceDirectoryDialog/0.27.1600.873@0.27.1600.873" timestamp="1604839746274" />
+    <state x="2143" y="293" width="824" height="491" key="AndroidCreateResourceFileDialog" timestamp="1603758759121">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2143" y="293" width="824" height="491" key="AndroidCreateResourceFileDialog/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1603758759121" />
+    <state x="573" y="172" width="444" height="552" key="FileChooserDialogImpl" timestamp="1604840853007">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="573" y="172" width="444" height="552" key="FileChooserDialogImpl/0.27.1600.873@0.27.1600.873" timestamp="1604840853007" />
+    <state width="1503" height="288" key="GridCell.Tab.0.bottom" timestamp="1608582498425">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1503" height="288" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.410.1600.900@0.27.1920.1053" timestamp="1608582498425" />
+    <state width="1635" height="288" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1603579379565" />
+    <state width="1503" height="288" key="GridCell.Tab.0.center" timestamp="1608582498425">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1503" height="288" key="GridCell.Tab.0.center/0.27.1920.1053/1920.410.1600.900@0.27.1920.1053" timestamp="1608582498425" />
+    <state width="1635" height="288" key="GridCell.Tab.0.center/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1603579379565" />
+    <state width="1503" height="288" key="GridCell.Tab.0.left" timestamp="1608582498425">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1503" height="288" key="GridCell.Tab.0.left/0.27.1920.1053/1920.410.1600.900@0.27.1920.1053" timestamp="1608582498425" />
+    <state width="1635" height="288" key="GridCell.Tab.0.left/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1603579379565" />
+    <state width="1503" height="288" key="GridCell.Tab.0.right" timestamp="1608582498425">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1503" height="288" key="GridCell.Tab.0.right/0.27.1920.1053/1920.410.1600.900@0.27.1920.1053" timestamp="1608582498425" />
+    <state width="1635" height="288" key="GridCell.Tab.0.right/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1603579379565" />
+    <state x="2049" y="170" width="1022" height="737" key="SettingsEditor" timestamp="1603565427936">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2049" y="170" width="1022" height="737" key="SettingsEditor/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1603565427936" />
+    <state x="2254" y="133" width="611" height="804" key="find.popup" timestamp="1603560844552">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2254" y="133" width="611" height="804" key="find.popup/1600.0.1920.1080/0.180.1600.900@1600.0.1920.1080" timestamp="1603560844552" />
+    <state x="464" y="198" key="run.anything.popup" timestamp="1604849223398">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="464" y="198" key="run.anything.popup/0.27.1600.873@0.27.1600.873" timestamp="1604849223398" />
+  </component>
+</project>
